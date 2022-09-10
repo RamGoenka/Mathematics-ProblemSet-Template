@@ -1,3 +1,3 @@
-# MATH-347-homework-templet
+# Mathematics-homework-templet
 
-A simple templet for UIUC MATH 347 homework sets, in LaTeX.
+A simple templet for composing solutions to homework problems in Mathematics, written in LaTeX.

@@ -26,10 +26,10 @@
 \linespread{1.5}
 
 %CONTENT STARTS HERE
-{\Large NameGoesHere 
+{\Large Name_Goes_Here %Author(s) name
 \hfill  MATH XXX} %Replace the XXX with course number, and MATH with any subject desired
 \begin{center}
-{\Large Homework #} 
+{\Large Homework #} %Homework-number
 \end{center}
 \vspace{0.05in}
 
@@ -51,7 +51,7 @@
 \begin{problem}{insert problem number}
 \end{problem}
 
-%-----ADD MORE PROBLEM DIVIDERS IF NEEDED-----
+%-----ADD MORE PROBLEM DIVIDERS (IF NEEDED)-----
 
 % ---------------------------------------------------------------
 \end{document}
@@ -59,9 +59,9 @@
 
 
 
-%-----------------POSSIBLE HELPFUL COMMANDS---------------------
+%-----------------POSSIBLY HELPFUL COMMANDS---------------------
 
-%--PROOFS--
+%-----PROOFS-----
 \begin{proof}
 \end{proof}
 
@@ -69,10 +69,8 @@
 \begin{center}
 \end{center}
 
-
-%--MAKING A SIMPLE TABLE--
+%-----MAKING A SIMPLE TABLE-----
 \begin{center}
-
 \begin{tabular}{ |c|c|c|c| } 
 \hline
 col1 & col2 & col3 \\
@@ -82,7 +80,17 @@ col1 & col2 & col3 \\
 & cell8 & cell9 \\ 
 \hline
 \end{tabular}
-
 \end{center}
+
+%-----TURN A PDF DARK WITH THE FOLLOWING-----
+\usepackage{xcolor}
+\pagecolor{black}
+\color{white}
+
+%-----MAKE A MATRIX-----
+\begin{pmatrix}
+1 & 2 & 3\\
+a & b & c
+\end{pmatrix}
 
 %----------------------------------------------------------------

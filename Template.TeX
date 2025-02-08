@@ -1,13 +1,29 @@
 \documentclass{article}
+\usepackage{listings}
+\usepackage{tikz}
+\usepackage{pythontex}
+\usetikzlibrary{automata,positioning,arrows}
+\usepackage{xcolor}
+\usepackage{pifont}
 \usepackage[margin=1.5in]{geometry} 
 \usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{array}
 \usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
 \usepackage{graphicx}
 \usepackage{amsmath,amsthm,amssymb,hyperref}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\large \textbf{MATH 123 - Homework 1}}
+\fancyhead[R]{\large \textbf{Name Here (studentID here)}} 
+
 \newcommand{\R}{\mathbb{R}}  
 \newcommand{\Z}{\mathbb{Z}}
 \newcommand{\N}{\mathbb{N}}
 \newcommand{\Q}{\mathbb{Q}}
+
 \newenvironment{theorem}[2][Theorem]{\begin{trivlist}
 \item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
 \newenvironment{lemma}[2][Lemma]{\begin{trivlist}
@@ -21,76 +37,16 @@
 \newenvironment{corollary}[2][Corollary]{\begin{trivlist}
 \item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
 \newenvironment{solution}{\begin{proof}[Solution]}{\end{proof}}
+
 \begin{document}
+
 \large 
 \linespread{1.5}
 
-%CONTENT STARTS HERE
-{\Large Name_Goes_Here %Author(s) name
-\hfill  MATH XXX} %Replace the XXX with course number, and MATH with any subject desired
-\begin{center}
-{\Large Homework #} %Homework-number
-\end{center}
-\vspace{0.05in}
 
-% ---------------------------------------------------------------
-% FIRST PROBLEM
-% ---------------------------------------------------------------
-\begin{problem}{insert problem number}
-\end{problem}
+\section*{Problem 1}
+\textbf{(a)} % Solution for sub-section (a) goes here...\\
+\\
+\textbf{(b)} % Solution for sub-section (b) goes here...
 
-% ---------------------------------------------------------------
-% SECOND PROBLEM
-% ---------------------------------------------------------------
-\begin{problem}{insert problem number}
-\end{problem}
-
-% ---------------------------------------------------------------
-% THIRD PROBLEM 
-% ---------------------------------------------------------------
-\begin{problem}{insert problem number}
-\end{problem}
-
-%-----ADD MORE PROBLEM DIVIDERS (IF NEEDED)-----
-
-% ---------------------------------------------------------------
 \end{document}
-
-
-
-
-%-----------------POSSIBLY HELPFUL COMMANDS---------------------
-
-%-----PROOFS-----
-\begin{proof}
-\end{proof}
-
-%--ALLIGN CENTER--
-\begin{center}
-\end{center}
-
-%-----MAKING A SIMPLE TABLE-----
-\begin{center}
-\begin{tabular}{ |c|c|c|c| } 
-\hline
-col1 & col2 & col3 \\
-\hline
-\multirow{3}{4em}{Multiple row} & cell2 & cell3 \\ 
-& cell5 & cell6 \\ 
-& cell8 & cell9 \\ 
-\hline
-\end{tabular}
-\end{center}
-
-%-----TURN A PDF DARK WITH THE FOLLOWING-----
-\usepackage{xcolor}
-\pagecolor{black}
-\color{white}
-
-%-----MAKE A MATRIX-----
-\begin{pmatrix}
-1 & 2 & 3\\
-a & b & c
-\end{pmatrix}
-
-%----------------------------------------------------------------

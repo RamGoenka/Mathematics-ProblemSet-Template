@@ -1,3 +1,3 @@
-# Mathematics-homework-templet
+# Mathematics-homework-template
 
-A simple templet for composing solutions to homework problems in Mathematics, written in LaTeX.
+A simple template for composing solutions to homework problems in Mathematics (or other classes), written in LaTeX.
